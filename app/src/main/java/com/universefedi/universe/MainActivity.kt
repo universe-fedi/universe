@@ -63,7 +63,7 @@ fun App(modifier: Modifier = Modifier) {
             FloatingActionButton(
                 onClick = {}
             ) {
-                Icon(Icons.Default.Edit, contentDescription = "New Post")
+                Icon(Icons.Default.Edit, contentDescription = stringResource(R.string.new_post))
             }
         },
         modifier = modifier
@@ -81,7 +81,7 @@ fun App(modifier: Modifier = Modifier) {
 fun TopBar(modifier: Modifier = Modifier) {
     CenterAlignedTopAppBar(
         title = { Text("Universe") },
-        navigationIcon = { Icon(Icons.Default.Menu, contentDescription = "Menu") },
+        navigationIcon = { Icon(Icons.Default.Menu, contentDescription = stringResource(R.string.menu)) },
         modifier = modifier.padding(horizontal = 8.dp)
     )
 }
