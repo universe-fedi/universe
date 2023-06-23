@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Universe Client</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="notifications">Notifications</string>
+    <string name="accounts">Accounts</string>
 </resources>

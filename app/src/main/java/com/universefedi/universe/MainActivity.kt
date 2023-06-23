@@ -31,6 +31,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.universefedi.universe.ui.theme.UniverseClientTheme
@@ -92,25 +93,25 @@ fun BottomBar(modifier: Modifier = Modifier) {
     ) {
         NavigationBarItem(
             icon = { Icon(Icons.Default.Home, contentDescription = null) },
-            label = { Text("Search") },
+            label = { Text(stringResource(R.string.home)) },
             onClick = {},
             selected = true
         )
         NavigationBarItem(
             icon = { Icon(Icons.Default.Search, contentDescription = null) },
-            label = { Text("Search") },
+            label = { Text(stringResource(R.string.search)) },
             onClick = {},
             selected = false
         )
         NavigationBarItem(
             icon = { Icon(Icons.Default.Notifications, contentDescription = null) },
-            label = { Text("Notifications") },
+            label = { Text(stringResource(R.string.notifications)) },
             onClick = {},
             selected = false
         )
         NavigationBarItem(
             icon = { Icon(Icons.Default.AccountCircle, contentDescription = null) },
-            label = { Text("Accounts") },
+            label = { Text(stringResource(R.string.accounts)) },
             onClick = {},
             selected = false
         )
