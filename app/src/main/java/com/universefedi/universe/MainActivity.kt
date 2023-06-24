@@ -70,7 +70,7 @@ fun App(modifier: Modifier = Modifier) {
     ) { contentPadding ->
         LazyColumn(modifier = Modifier.padding(contentPadding)) {
             item {
-
+                //Post(username = "Lisa Laporte", handle = "@Lisa@twit.social", post = "I hear from @TWiT@mastodon.social fans that they were never warned that shows may end on our network. Well, they do when audiences stop listening, and downloads diminish. So guess what? You're now warned. If you want your favorite pods to thrive - subscribe, subscribe, subscribe & support the sponsors. We also have a Club - for \$7 a month. You get ALL of our shows ad-free, Discord, bonus content, and three Club exclusive shows. Pick one and do it! https://twit.tv/clubtwit")
             }
         }
     }
